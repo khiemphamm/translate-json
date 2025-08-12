@@ -1,0 +1,133 @@
+{
+  "app": {
+    "name": "MyApp",
+    "version": "1.0.0",
+    "description": "Một ứng dụng mẫu để trình diễn",
+    "url": "https://example.com",
+    "contact": "support@example.com"
+  },
+  "ui": {
+    "buttons": {
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "delete": "Xóa",
+      "submit": "Gửi",
+      "close": "Đóng",
+      "edit": "Chỉnh sửa",
+      "add": "Thêm mới",
+      "remove": "Xóa bỏ",
+      "confirm": "Xác nhận",
+      "back": "Quay lại"
+    },
+    "messages": {
+      "welcome": "Chào mừng bạn đến với ứng dụng của chúng tôi!",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "success": "Hoạt động đã hoàn thành thành công.",
+      "warning": "Vui lòng kiểm tra dữ liệu nhập và thử lại.",
+      "info": "Hành động này không thể hoàn tác.",
+      "loading": "Đang tải, vui lòng chờ...",
+      "no_data": "Không có dữ liệu để hiển thị.",
+      "save_success": "Các thay đổi của bạn đã được lưu.",
+      "delete_confirm": "Bạn có chắc chắn muốn xóa mục này?",
+      "logout_confirm": "Bạn có chắc chắn muốn đăng xuất?"
+    },
+    "navigation": {
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "services": "Dịch vụ của chúng tôi",
+      "portfolio": "Danh mục đầu tư",
+      "blog": "Blog",
+      "faq": "Câu hỏi thường gặp",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ",
+      "dashboard": "Bảng điều khiển"
+    },
+    "forms": {
+      "name": "Họ và tên",
+      "email": "Địa chỉ email",
+      "phone": "Số điện thoại",
+      "message": "Tin nhắn của bạn",
+      "subject": "Chủ đề",
+      "password": "Mật khẩu",
+      "confirm_password": "Xác nhận mật khẩu",
+      "remember_me": "Ghi nhớ tôi",
+      "forgot_password": "Quên mật khẩu?",
+      "create_account": "Tạo tài khoản mới"
+    }
+  },
+  "validation": {
+    "required": "Trường này là bắt buộc",
+    "email": "Vui lòng nhập địa chỉ email hợp lệ",
+    "min_length": "Độ dài tối thiểu là {{min}} ký tự",
+    "max_length": "Độ dài tối đa là {{max}} ký tự",
+    "password_mismatch": "Mật khẩu không khớp",
+    "invalid_phone": "Vui lòng nhập số điện thoại hợp lệ",
+    "invalid_url": "Vui lòng nhập URL hợp lệ",
+    "invalid_date": "Vui lòng nhập ngày hợp lệ",
+    "file_too_large": "Kích thước tệp phải nhỏ hơn {{size}}MB",
+    "invalid_file_type": "Chỉ cho phép tệp {{types}}"
+  },
+  "time": {
+    "days": {
+      "monday": "Thứ hai",
+      "tuesday": "Thứ ba",
+      "wednesday": "Thứ tư",
+      "thursday": "Thứ năm",
+      "friday": "Thứ sáu",
+      "saturday": "Thứ bảy",
+      "sunday": "Chủ nhật"
+    },
+    "months": {
+      "january": "Tháng một",
+      "february": "Tháng hai",
+      "march": "Tháng ba",
+      "april": "Tháng tư",
+      "may": "Tháng năm",
+      "june": "Tháng sáu",
+      "july": "Tháng bảy",
+      "august": "Tháng tám",
+      "september": "Tháng chín",
+      "october": "Tháng mười",
+      "november": "Tháng mười một",
+      "december": "Tháng mười hai"
+    },
+    "relative": {
+      "just_now": "Vừa xong",
+      "minutes_ago": "{{count}} phút trước",
+      "hours_ago": "{{count}} giờ trước",
+      "days_ago": "{{count}} ngày trước",
+      "weeks_ago": "{{count}} tuần trước",
+      "months_ago": "{{count}} tháng trước",
+      "years_ago": "{{count}} năm trước"
+    }
+  },
+  "colors": {
+    "primary": "#3b82f6",
+    "secondary": "#6b7280",
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "error": "#ef4444",
+    "background": "#ffffff",
+    "text": "#1f2937"
+  },
+  "api": {
+    "endpoints": {
+      "users": "/api/users",
+      "auth": "/api/auth",
+      "posts": "/api/posts"
+    },
+    "base_url": "https://api.example.com"
+  },
+  "settings": {
+    "pagination": {
+      "items_per_page": 20,
+      "show_first_last": true
+    },
+    "theme": "light",
+    "language": "en",
+    "timezone": "UTC",
+    "date_format": "YYYY-MM-DD",
+    "currency": "USD"
+  }
+}
